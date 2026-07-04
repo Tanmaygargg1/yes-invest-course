@@ -1,6 +1,6 @@
-# YES Investing Course
+# Investing Course by Tanmay Garg
 
-A free investing education course for JC students, built by the Young Entrepreneurs' Society at ACS(Independent). Eleven units, forty-two lessons — from "what is money?" through valuation, private equity, and dealcraft.
+A free investing education course for JC students, built by Tanmay Garg at ACS(Independent). Eleven units, forty-two lessons — from "what is money?" through valuation, private equity, and dealcraft.
 
 Pure HTML + CSS + JS. No frameworks, no build step, no npm. Progress is tracked client-side in `localStorage` only — there is no backend and no accounts.
 
