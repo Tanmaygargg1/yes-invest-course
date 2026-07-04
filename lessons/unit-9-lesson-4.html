@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valuation — DCF and Multiples — YES Investing Course</title>
+<meta name="description" content="How discounted cash flow analysis and comparable company multiples are used to estimate what a business is actually worth, and where each method can mislead you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="app">
+
+<button class="menu-toggle" data-menu-toggle aria-label="Open menu">☰ Menu</button>
+<div class="sidebar-overlay" data-sidebar-overlay></div>
+
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <a href="../index.html" class="sidebar-logo">YES <span>Invest</span></a>
+    <button class="sidebar-close" data-sidebar-close aria-label="Close menu">&times;</button>
+  </div>
+
+  <div class="sidebar-progress">
+    <span class="sidebar-progress-label">Your progress</span>
+    <div class="progress-track"><div class="progress-fill" data-sidebar-progress-fill></div></div>
+    <span class="progress-text" data-sidebar-progress-text>0 of 42 lessons complete</span>
+  </div>
+
+  <nav class="sidebar-nav" aria-label="Course navigation">
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">01</span> What Is Money, Really?</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-1-lesson-1"><a href="unit-1-lesson-1.html"><span class="lesson-check">✓</span>1.1 What Is Money?</a></li>
+        <li data-lesson="unit-1-lesson-2"><a href="unit-1-lesson-2.html"><span class="lesson-check">✓</span>1.2 The Time Value of Money</a></li>
+        <li data-lesson="unit-1-lesson-3"><a href="unit-1-lesson-3.html"><span class="lesson-check">✓</span>1.3 Compounding</a></li>
+        <li data-lesson="unit-1-lesson-4"><a href="unit-1-lesson-4.html"><span class="lesson-check">✓</span>1.4 Risk and Return</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">02</span> How Financial Markets Work</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-2-lesson-1"><a href="unit-2-lesson-1.html"><span class="lesson-check">✓</span>2.1 What Is a Financial Market?</a></li>
+        <li data-lesson="unit-2-lesson-2"><a href="unit-2-lesson-2.html"><span class="lesson-check">✓</span>2.2 How Prices Are Set</a></li>
+        <li data-lesson="unit-2-lesson-3"><a href="unit-2-lesson-3.html"><span class="lesson-check">✓</span>2.3 Market Participants</a></li>
+        <li data-lesson="unit-2-lesson-4"><a href="unit-2-lesson-4.html"><span class="lesson-check">✓</span>2.4 Market Indices</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">03</span> Stocks &amp; Equities</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-3-lesson-1"><a href="unit-3-lesson-1.html"><span class="lesson-check">✓</span>3.1 What Is a Stock?</a></li>
+        <li data-lesson="unit-3-lesson-2"><a href="unit-3-lesson-2.html"><span class="lesson-check">✓</span>3.2 How Stocks Are Valued</a></li>
+        <li data-lesson="unit-3-lesson-3"><a href="unit-3-lesson-3.html"><span class="lesson-check">✓</span>3.3 Dividends</a></li>
+        <li data-lesson="unit-3-lesson-4"><a href="unit-3-lesson-4.html"><span class="lesson-check">✓</span>3.4 IPOs and Going Public</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">04</span> Bonds &amp; Fixed Income</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-4-lesson-1"><a href="unit-4-lesson-1.html"><span class="lesson-check">✓</span>4.1 What Is a Bond?</a></li>
+        <li data-lesson="unit-4-lesson-2"><a href="unit-4-lesson-2.html"><span class="lesson-check">✓</span>4.2 Bond Prices and Yields</a></li>
+        <li data-lesson="unit-4-lesson-3"><a href="unit-4-lesson-3.html"><span class="lesson-check">✓</span>4.3 The Yield Curve</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">05</span> Macroeconomics for Investors</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-5-lesson-1"><a href="unit-5-lesson-1.html"><span class="lesson-check">✓</span>5.1 GDP and Economic Cycles</a></li>
+        <li data-lesson="unit-5-lesson-2"><a href="unit-5-lesson-2.html"><span class="lesson-check">✓</span>5.2 Inflation</a></li>
+        <li data-lesson="unit-5-lesson-3"><a href="unit-5-lesson-3.html"><span class="lesson-check">✓</span>5.3 Interest Rates and Central Banks</a></li>
+        <li data-lesson="unit-5-lesson-4"><a href="unit-5-lesson-4.html"><span class="lesson-check">✓</span>5.4 Geopolitics and Markets</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">06</span> Reading Financial Statements</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-6-lesson-1"><a href="unit-6-lesson-1.html"><span class="lesson-check">✓</span>6.1 The Income Statement</a></li>
+        <li data-lesson="unit-6-lesson-2"><a href="unit-6-lesson-2.html"><span class="lesson-check">✓</span>6.2 The Balance Sheet</a></li>
+        <li data-lesson="unit-6-lesson-3"><a href="unit-6-lesson-3.html"><span class="lesson-check">✓</span>6.3 The Cash Flow Statement</a></li>
+        <li data-lesson="unit-6-lesson-4"><a href="unit-6-lesson-4.html"><span class="lesson-check">✓</span>6.4 Putting It Together</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">07</span> Portfolios &amp; Risk Management</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-7-lesson-1"><a href="unit-7-lesson-1.html"><span class="lesson-check">✓</span>7.1 Diversification</a></li>
+        <li data-lesson="unit-7-lesson-2"><a href="unit-7-lesson-2.html"><span class="lesson-check">✓</span>7.2 Asset Allocation</a></li>
+        <li data-lesson="unit-7-lesson-3"><a href="unit-7-lesson-3.html"><span class="lesson-check">✓</span>7.3 Types of Risk</a></li>
+        <li data-lesson="unit-7-lesson-4"><a href="unit-7-lesson-4.html"><span class="lesson-check">✓</span>7.4 Portfolio Performance</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">08</span> Alternative Investments</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-8-lesson-1"><a href="unit-8-lesson-1.html"><span class="lesson-check">✓</span>8.1 Venture Capital</a></li>
+        <li data-lesson="unit-8-lesson-2"><a href="unit-8-lesson-2.html"><span class="lesson-check">✓</span>8.2 Private Equity</a></li>
+        <li data-lesson="unit-8-lesson-3"><a href="unit-8-lesson-3.html"><span class="lesson-check">✓</span>8.3 Hedge Funds</a></li>
+        <li data-lesson="unit-8-lesson-4"><a href="unit-8-lesson-4.html"><span class="lesson-check">✓</span>8.4 Real Assets &amp; Alternatives</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group" open>
+      <summary class="unit-summary"><span class="unit-num-tag">09</span> Investment Analysis &amp; Theses</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-9-lesson-1"><a href="unit-9-lesson-1.html"><span class="lesson-check">✓</span>9.1 Fundamental vs Technical</a></li>
+        <li data-lesson="unit-9-lesson-2"><a href="unit-9-lesson-2.html"><span class="lesson-check">✓</span>9.2 Building an Investment Thesis</a></li>
+        <li data-lesson="unit-9-lesson-3"><a href="unit-9-lesson-3.html"><span class="lesson-check">✓</span>9.3 Moats &amp; Competitive Advantage</a></li>
+        <li data-lesson="unit-9-lesson-4"><a href="unit-9-lesson-4.html" class="active"><span class="lesson-check">✓</span>9.4 Valuation — DCF &amp; Multiples</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">10</span> Advanced Topics</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-10-lesson-1"><a href="unit-10-lesson-1.html"><span class="lesson-check">✓</span>10.1 Mergers &amp; Acquisitions</a></li>
+        <li data-lesson="unit-10-lesson-2"><a href="unit-10-lesson-2.html"><span class="lesson-check">✓</span>10.2 How Deals Get Funded</a></li>
+        <li data-lesson="unit-10-lesson-3"><a href="unit-10-lesson-3.html"><span class="lesson-check">✓</span>10.3 Careers in Finance</a></li>
+        <li data-lesson="unit-10-lesson-4"><a href="unit-10-lesson-4.html"><span class="lesson-check">✓</span>10.4 The Future of Finance</a></li>
+      </ul>
+    </details>
+
+    <details class="unit-group">
+      <summary class="unit-summary"><span class="unit-num-tag">11</span> Personal Finance for Students</summary>
+      <ul class="lesson-list">
+        <li data-lesson="unit-11-lesson-1"><a href="unit-11-lesson-1.html"><span class="lesson-check">✓</span>11.1 Budgeting and Saving</a></li>
+        <li data-lesson="unit-11-lesson-2"><a href="unit-11-lesson-2.html"><span class="lesson-check">✓</span>11.2 CPF — Singapore's Retirement System</a></li>
+        <li data-lesson="unit-11-lesson-3"><a href="unit-11-lesson-3.html"><span class="lesson-check">✓</span>11.3 Getting Started Investing in SG</a></li>
+      </ul>
+    </details>
+
+  </nav>
+
+  <div class="sidebar-footer">
+    <a href="../index.html">← Back to course overview</a>
+  </div>
+</aside>
+
+<main class="main" id="main-content">
+<div class="content">
+
+  <p class="breadcrumb"><a href="../index.html">Course</a> → <a href="../index.html">Unit 9: Investment Analysis and Theses</a> → Lesson 9.4</p>
+
+  <span class="eyebrow">Unit 9 · Investment Analysis</span>
+  <h1>Valuation — DCF and Multiples</h1>
+
+  <div class="lesson-meta">
+    <span>6 min read</span>
+    <span class="dot">Lesson 4 of 4</span>
+  </div>
+
+  <p>Every investment decision eventually comes down to one question — is this worth what it costs? — and answering it rigorously, rather than by gut feeling, is what valuation is for.</p>
+
+  <h2>Intrinsic value: what the business is actually worth</h2>
+  <p>A stock's market price is simply whatever the last buyer and seller agreed to — it can be pushed around by sentiment, hype, panic, or short-term news, none of which necessarily reflects the business's real worth. <strong>Intrinsic value</strong> is an estimate of what a company is actually worth, based on its underlying economics — the cash it can be expected to generate for its owners over its lifetime — independent of what the market happens to be paying for it today. The entire premise of fundamental analysis (Lesson 9.1) is that market price and intrinsic value can diverge, sometimes significantly, and that a disciplined investor can profit by identifying and acting on that gap. Valuation is the toolkit for actually estimating intrinsic value, so that "cheap" or "expensive" becomes a reasoned judgment rather than a feeling.</p>
+
+  <h2>Discounted Cash Flow (DCF): forecasting future cash flows and discounting to today</h2>
+  <p>The most theoretically rigorous valuation method is <strong>Discounted Cash Flow (DCF) analysis</strong>: forecasting how much cash a business will generate for its owners in each future year, then converting each of those future cash amounts into today's dollars using a <strong>discount rate</strong>, and summing them up to get a single present-day value for the whole business. The conversion step matters because of a core idea from Unit 1: a dollar received in ten years is worth less than a dollar today (time value of money), so future cash flows must be "discounted" down before they can be fairly added to today's value.</p>
+  <div class="formula">
+Present Value of a future cash flow = Future Cash Flow ÷ (1 + discount rate) ^ number of years
+
+Example: $100 expected in 3 years, discount rate = 10%
+PV = $100 ÷ (1.10)^3 = $100 ÷ 1.331 ≈ $75.13
+
+A DCF repeats this for every projected future year of cash flow,
+then sums all the present values to estimate the business's total worth today.
+  </div>
+  <p>The discount rate itself typically reflects the riskiness of the business and the returns available elsewhere (an investor demands a higher discount rate — i.e., values future cash less — for a riskier, less predictable business, and a lower one for a stable, predictable business). DCF is powerful because it directly ties value to the actual cash a business generates, but it's also highly sensitive to its assumptions, which is exactly why it's described as more art than pure science, below.</p>
+
+  <h2>Comparable company analysis (comps): using peer multiples to triangulate value</h2>
+  <p><strong>Comparable company analysis</strong> (or "comps") takes a completely different, more market-based approach: instead of forecasting a company's cash flows from scratch, it looks at how the market currently values similar companies, using a ratio called a <strong>multiple</strong>, and applies that same multiple to the company being valued. The most common is the <strong>Price-to-Earnings (P/E) ratio</strong> — a company's stock price divided by its earnings per share, showing how many dollars investors are paying for each dollar of annual profit.</p>
+  <div class="formula">
+If comparable companies in the same industry trade at an average
+P/E of 15x, and the company being valued earns $2 per share,
+a comps-based estimate of fair value ≈ 15 × $2 = $30 per share.
+  </div>
+  <p>Comps are faster and rely less on distant, uncertain forecasts than a DCF, and they anchor a valuation to what the market is actually paying for similar businesses right now — but they carry a real weakness: if the whole sector or market is currently overvalued or undervalued, comps will simply reproduce that same mispricing, since they're benchmarked against other prices rather than against underlying cash-generating ability. In practice, professional analysts typically triangulate — using both a DCF and comps, plus other methods, and treating the range where these approaches broadly agree as their best estimate of value.</p>
+
+  <h2>Why valuation is an art as much as a science</h2>
+  <p>Despite the precise-looking formulas, valuation involves substantial judgment at almost every step: how fast will revenue actually grow over the next 5-10 years? What discount rate correctly reflects this specific company's risk? Which companies are truly "comparable" for a comps analysis, and are their own valuations even reasonable right now? None of these questions has a single objectively correct answer — two skilled, honest analysts can build reasonable DCF models for the same company and arrive at meaningfully different values, simply from different (both defensible) assumptions. This is why experienced investors treat a single valuation output as a range and a starting point for further thinking, not a precise, guaranteed number — and why humility about the limits of any valuation model is itself a mark of a more sophisticated investor, not a less rigorous one.</p>
+
+  <h2>Common valuation mistakes</h2>
+  <ul>
+    <li><strong>Excessive precision</strong> — presenting a DCF's output as a single exact number (e.g., "$47.32 per share") when the underlying assumptions are genuinely uncertain, creating false confidence.</li>
+    <li><strong>Overly optimistic growth assumptions</strong> — extending a company's recent fast growth far into the future without asking whether that growth rate is realistically sustainable as the company gets larger.</li>
+    <li><strong>Ignoring the discount rate's outsized impact</strong> — small changes to the discount rate can swing a DCF's output dramatically, especially for companies whose cash flows are expected mostly in the distant future, yet this sensitivity is often underappreciated.</li>
+    <li><strong>Cherry-picking comparable companies</strong> — selecting only the peers that support a valuation conclusion you already wanted to reach, rather than an honest, representative peer set.</li>
+    <li><strong>Confusing a good company with a good investment</strong> — forgetting that even an excellent, high-quality business (strong moat, great management) can be a poor investment if you simply pay too much for it.</li>
+  </ul>
+
+  <div class="self-check">
+    <span class="self-check-label">Self-check</span>
+    <p class="question">If you raise the discount rate in a DCF, does the intrinsic value go up or down? Why?</p>
+    <details>
+      <summary>Reveal Answer</summary>
+      <div class="answer">
+        <p>The intrinsic value goes down. In the present value formula, PV = Future Cash Flow ÷ (1 + discount rate)^years, the discount rate sits in the denominator — a larger discount rate produces a larger denominator, which shrinks the present value of every future cash flow. Since a DCF's total value is the sum of all these discounted future cash flows, raising the discount rate reduces every individual term in that sum, and therefore reduces the total estimated value of the business. Intuitively, the discount rate represents how much an investor demands to be compensated for risk and for waiting — a higher discount rate means the investor is treating future cash as less valuable today, either because they view the business as riskier or because they have better alternative uses for their money elsewhere (a higher required return elsewhere). The effect compounds for cash flows further in the future (since the discount rate is raised to a higher power for more distant years), meaning companies whose value depends heavily on distant, far-future cash flows (like early-stage growth companies) are especially sensitive to changes in the discount rate assumption.</p>
+      </div>
+    </details>
+  </div>
+
+  <div class="mark-complete">
+    <button class="btn" data-mark-complete="unit-9-lesson-4">Mark as complete</button>
+  </div>
+
+  <div class="lesson-pager">
+    <a class="pager-link prev" href="unit-9-lesson-3.html">
+      <span class="pager-label">Previous</span>
+      <span class="pager-title">← 9.3 Moats and Competitive Advantage</span>
+    </a>
+    <a class="pager-link next" href="unit-10-lesson-1.html">
+      <span class="pager-label">Next</span>
+      <span class="pager-title">10.1 Mergers and Acquisitions (M&A) →</span>
+    </a>
+  </div>
+
+  <a class="back-to-overview" href="../index.html">← Back to course overview</a>
+
+</div>
+</main>
+</div>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
